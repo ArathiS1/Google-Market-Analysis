@@ -82,9 +82,8 @@ The project followed a structured data analysis lifecycle:
 
 ## 🔗 Project Links & Resources
 *   **📊 Interactive Dashboard:** [Download Power BI File](./assets/google_dashboard.pbix)
-*   **📁 Raw Data Files:** [View CSV Data Files](./data/raw/)
-*   **📋 Project Management:** [View Project Task Board](https://github.com/your-username/your-repo-name/projects/1) (Optional Link)
-*   **🎥 Video Walkthrough:** [Watch Dashboard Overview on Loom](https://www.loom.com/share/your-video-id) (Highly Recommended - Add this if you create it!)
+*   **📁 Raw Data Files:** [View CSV Data Files](./data)
+
 
 
 ## 💡 SQL Examples (Hypothetical Data Extraction)
