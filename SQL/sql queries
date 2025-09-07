@@ -1,1 +1,21 @@
+```sql
+-- Query to get the latest AI Chatbot market shares
+SELECT Date, ChatGPT, Gemini, Copilot, Perplexity
+FROM ai_chatbot_market_share
+WHERE Date = (SELECT MAX(Date) FROM ai_chatbot_market_share)
+ORDER BY Date DESC;
 
+-- Query to calculate the 6-month trend for Google Search share
+SELECT 
+    MIN(CASE WHEN Date = '2024-08-01' THEN Google END) AS Start_Share,
+    MAX(CASE WHEN Date = '2025-02-01' THEN Google END) AS End_Share,
+    (MAX(CASE WHEN Date = '2025-02-01' THEN Google END) - MIN(CASE WHEN Date = '2024-08-01' THEN Google END)) AS Change
+FROM search_engine_market_share;
+
+-- Query to get average browser share for the last quarter
+SELECT 
+    AVG(Chrome) AS Avg_Chrome_Share,
+    AVG(Safari) AS Avg_Safari_Share,
+    AVG(Edge) AS Avg_Edge_Share
+FROM browser_market_share
+WHERE Date BETWEEN '2025-01-01' AND '2025-03-01';
