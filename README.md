@@ -56,8 +56,6 @@ The project followed a structured data analysis lifecycle:
 
 ## 📈 Results & Business Impact
 
-### Final Integrated Dashboard
-![Full Dashboard Overview](https://assets/images/dashboard_overview.png)
 
 ### Key Results & Strategic Insights
 
@@ -80,14 +78,8 @@ The project followed a structured data analysis lifecycle:
 2.  **Short-term:** Leverage Chrome's dominance to more deeply integrate and promote Gemini features to a captive audience.
 3.  **Long-term:** Consider more aggressive investment in AI research and development, potentially through acquisitions, to close the innovation gap.
 
-## 🔗 Project Links & Resources
-*   **📊 Interactive Dashboard:** [Download Power BI File](./assets/google_dashboard.pbix)
-*   **📁 Raw Data Files:** [View CSV Data Files](./data)
-
-
 
 ## 💡 SQL Examples (Hypothetical Data Extraction)
-This analysis assumes data is stored in a SQL database. Here are examples of queries that could be used to extract this data for analysis:
 
 ```sql
 -- Query to get the latest AI Chatbot market shares
